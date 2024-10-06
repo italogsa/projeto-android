@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'idroid';
+    src: url(../fontes/idroid.otf) format(opentype);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #7cbf6a;
+}
+
+a {
+    color: green;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p {
+    text-align: justify;
+    text-indent: 20px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.imagem{
+    text-align: center;
+}
+
+#cabecalho {
+    text-align: center;
+    color: white;
+    background: linear-gradient(0deg, rgba(9, 121, 26, 1)35%, rgba(0, 255, 101, 1) 100%);
+    box-shadow: 1px 1px 10px black;
+
+}
+
+#cabecalho > a {
+    margin-right: 10px;
+    color: white;
+}
+
+#cabecalho > p {
+    text-align: center;
+    font-size: small;
+}
+
+#conteudo {
+    margin:  0px auto;
+    width: 500px;
+    background-color: white;
+    box-shadow: 0px 0px 20px;
+    padding: 20px;
+}
+
+h1,
+h2,
+h4 {
+    margin: 0;
+}
+
+h2,
+h3 {
+    font-family: idroid;
+}
+
+h3 {
+    background: linear-gradient(90deg, rgba(105,240,126,0.22972972972972971) 20%, rgba(0,255,101,0) 100%);
+}
+
+ul {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+#video {
+    background-color: green;
+    padding: 20px 30px;
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+#quadro {
+    background-color: #7cbf6a;
+    border-radius: 0 0 20px 20px;
+    padding: 5px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+#quadro > p {
+    margin-top: 10px;
+}
+
+h4 {
+    background-color: rgb(101, 164, 7);
+    color: white;
+    margin-bottom: 0;
+    padding: 8px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#rodape {
+    background-color: green;
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+    color: rgb(228, 227, 227);
+}
+
+#rodape > a {
+    color: white;
+}
