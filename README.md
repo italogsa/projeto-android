@@ -20,6 +20,7 @@ Este projeto foi recriado como parte de um estudo prático de desenvolvimento we
 
 ## 📂 Estrutura do Projeto
 
+```plaintext
 projeto-android/
 ├── assets/
 │   ├── css/
